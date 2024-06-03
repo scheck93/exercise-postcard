@@ -1,0 +1,77 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 10px;
+}
+
+.poppins-regular {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+	padding: 20px 0px 0px 0px;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding: 10px;
+}
+
+button {
+	background-color: rgb(192, 186, 186);
+	padding: 5px 10px 5px 10px;
+	border: none;
+}
+
+button:active {
+	background-color: rgb(151, 151, 151);
+}
+
+.body-left {
+	text-align: left;
+	font-size: smaller;
+	margin-left: 0;
+	padding: 0px;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-right {
+	text-align: left;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+	font-size: px;
+}
